@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #2B2B2B;
+    height: 100px;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+.container {
+    background: #F4EAE0;
+    padding: 10px;
+}
+
+.container h2.heading {
+    margin-top: 5%;
+    text-align: center;
+    color: #2B2B2B;
+    font-size: 2rem;
+    font-family: 'Architects Daughter';
+    padding-top: 30px;
+}
+
+
+.container .box_container {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    cursor: pointer;
+}
+
+.container .box_container .box {
+    border-radius: .5px;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.container .box_container .box img {
+    height: 320px;
+    width: 250px;
+}
+
+.container .box_container .box h4 {
+    color: #2B2B2B;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
+.container .box_container .box:hover {
+    transform: scale(1.02);
+}
+
+.load_more {
+    margin-top: 4%;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+/*---------------------------SMALL SCREEN THAT IS LESS THAN 853PX----------------------------------------*/
+
+@media only screen and (max-width:853px) {
+
+    .container h2.heading {
+        font-size: 22px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .container .box_container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .container .box_container .box h4 {
+        font-size: 13px;
+    }
+
+
+}

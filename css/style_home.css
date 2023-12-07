@@ -1,0 +1,620 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-----FOR HUMBURGER MENU-----------------------*/
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+/*-----------FOR NAVIGATION---------*/
+.navbar {
+    background-color: transparent;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.navbar .logo {
+    font-family: 'Architects Daughter';
+    position: relative;
+    margin-left: 20px;
+    top: 20px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+.firstLetter {
+    color: #E0C097;
+    font-family: 'Architects Daughter';
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 1%;
+}
+
+.navbar ul li a {
+    font-family: 'Architects Daughter';
+    line-height: 60px;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    position: relative;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 3px;
+}
+
+.navbar ul li a:hover {
+    color: #E0C097;
+}
+
+.humburger {
+    display: none;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 130vh;
+    background-image: url('../Images/hero_image1.jpeg');
+    background-size: cover;
+    background-position: center 100%;
+    box-shadow: 3px 3px lightgray;
+}
+
+.banner .banner_text {
+    text-align: start;
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    transform: translate(-20%, -25%);
+    color: white;
+    padding-left: 30px;
+    margin-left: 14%;
+}
+
+.banner .banner_text .subTxt h3 {
+    font-size: 28px;
+    color: #2B2B2B;
+    text-shadow: 1px 1px #FDF7E4;
+}
+
+.banner .banner_text h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.banner_text .button_container {
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 8px;
+}
+
+.banner_text .button_container .btnAbout {
+    display: flex;
+    float: right;
+    background: #E1AA74;
+    color: white;
+    font-size: 18px;
+    width: 170px;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.banner_text .button_container .btnAbout:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* -------------------------------------------STYLES FOR SECTION 2-------------------------------------------*/
+
+
+.wrapper-border {
+    border: 2px solid #B0926A;
+    margin-top: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.row {
+    width: 80%;
+    display: grid;
+    place-items: center;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 30px;
+    padding-bottom: 7%;
+    margin-left: 6%;
+    margin-top: 10%;
+}
+
+.row .left_part {
+    overflow: hidden;
+}
+
+.row .left_part img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.row .rigth_part {
+    display: flex;
+    align-items: center;
+
+}
+
+.row .rigth_part .content {
+    padding-left: 0px;
+}
+
+h3 {
+    font-family: 'Architects Daughter';
+    font-size: 2.1rem;
+}
+
+.row .rigth_part .content p {
+    font-size: 22px;
+    line-height: 1.6;
+    padding-bottom: 15px;
+    margin-right: 9%;
+}
+
+.btnPhoto {
+    display: flex;
+    background: #E1AA74;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+    padding: 15px 25px;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 3%;
+
+}
+
+.btnPhoto:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+/* --------------FOR SLIDER---------STYLES FOR SECTION 3----------------*/
+.heading_slider {
+    font-family: 'Architects Daughter';
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.gallery_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: #EEE0C9;
+    padding: 50px;
+}
+
+.gallery {
+    width: 1300px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery .image_holder {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    flex: none;
+}
+
+.span_image img {
+    width: 310px;
+    height: 240px;
+    filter: grayscale(40%);
+    transition: transform 0.5s;
+}
+
+.span_image img:hover {
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.prev_btn,
+.next_btn {
+    background: none;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+    color: #2B2B2B;
+}
+
+/*------------------------------FOOTER------------------------------*/
+
+footer {
+    width: calc(100%- 80px);
+    padding: 40px 40px;
+    background-color: #776B5D;
+    overflow: hidden;
+    margin-top: 10%;
+}
+
+footer .footer_contact li .logo {
+    font-family: 'Architects Daughter';
+    font-size: 25px;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    line-height: 40px;
+    display: block;
+}
+
+.footer_contact li {
+    text-decoration: none;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+}
+
+
+.footer_sm {
+    width: 25px;
+    float: right;
+}
+
+.footer_sm img {
+    width: 100%;
+}
+
+
+/*----------------------------------MEDIA QUERY STARTS HERE--------------------------------------------------------------------*/
+
+
+/*-------------------FOR LARGE SCREEN THAT IS LARGER THAN 1900PX---------------*/
+@media screen and (min-width:1900px) {
+    .navbar ul li a {
+        font-size: 22px;
+    }
+
+    .banner .banner_text h1 {
+        font-size: 60px;
+    }
+
+    .navbar .logo {
+        font-size: 35px;
+        color: white;
+        margin-left: 25px;
+    }
+
+    .firstLetter {
+        font-size: 45px;
+    }
+
+    .banner .banner_text h3 {
+        font-size: 30px;
+    }
+
+    .banner_text .button_container .btnAbout {
+        font-size: 20px;
+        width: 200px;
+        padding: 20px 25px;
+    }
+
+    .banner {
+        height: 120vh;
+    }
+
+    .btnPhoto {
+        display: flex;
+        background: #E0C097;
+        color: white;
+        font-size: 18px;
+        width: 180px;
+        padding: 15px 25px;
+        text-decoration: none;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .row .left_part img {
+        width: 450px;
+        height: 620px;
+    }
+
+    .row {
+        max-width: 1200px;
+        gap: 60px 90px;
+        margin-top: 5%;
+        margin-left: 10%;
+        font-size: 20px;
+        padding-bottom: 5%;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+/*---------------------------SMALL SCREEN THAT IS LESS THAN 853PX----------------------------------------*/
+
+@media only screen and (max-width:853px) {
+
+    .navbar .logo {
+        font-size: 20px;
+        top: 20%;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .navbar ul {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(45, 39, 39, 0.9);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 30px 0;
+        line-height: 20px;
+    }
+
+    .navbar ul li a {
+        font-size: 20px;
+    }
+
+    a:hover {
+        background: none;
+        color: #B0926A;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+
+    .banner {
+        height: 85vh;
+        background-image: url('../Images/hero_image_mobile.jpeg');
+    }
+
+    .banner .banner_text {
+        margin-left: 11.5%;
+        top: 33%;
+    }
+
+
+    .banner .banner_text h1 {
+        font-size: 34px;
+        text-align: center;
+        text-shadow: none;
+        padding-right: 30px;
+        padding-top: 30px;
+        text-shadow: 1.5px 1.5px black;
+    }
+
+    .banner .banner_text .subTxt {
+        width: 100%;
+    }
+
+    .banner .banner_text .subTxt h3 {
+        font-size: 18px;
+        color: #2B2B2B;
+        text-align: center;
+        font-family: 'Architects Daughter';
+        margin-top: 3%;
+        margin-right: 9%;
+        padding: 15px;
+        background-color: rgb(229, 220, 195, 0.6);
+        border-radius: 3px;
+    }
+
+    .banner .button_container {
+        margin-top: 0px;
+        position: relative;
+        margin-left: 9px;
+    }
+
+    .banner .button_container .btnAbout {
+        font-size: 14px;
+        width: 145px;
+        padding: 10px 20px;
+        margin-left: 12%;
+        margin-top: 3%;
+    }
+
+    /*--------SECTION 2 STYLE-----------*/
+    .row {
+        width: 90%;
+        grid-template-columns: 1fr;
+        margin-left: 1%;
+        margin-right: 1.5%;
+        margin-top: 13%;
+        padding-left: 30px;
+        padding-right: 30px;
+        align-items: center;
+    }
+
+    .row .left_part {
+        padding-right: 30px;
+    }
+
+    .row .left_part img {
+        width: 250px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 0;
+    }
+
+    .row .rigth_part .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        padding-left: 18px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.6;
+        padding-bottom: 20px;
+        padding-left: 28px;
+        padding-right: 30px;
+    }
+
+    .btnPhoto {
+        font-size: 15px;
+        width: 140px;
+        padding: 10px 15px;
+        text-decoration: none;
+        justify-content: center;
+        margin-top: 4%;
+        margin-left: 30px;
+    }
+
+    .blog-heading h3 {
+        font-size: 1.5rem;
+        margin-top: 12%;
+    }
+
+    .blog-text span {
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+    .blog-text .blog-title {
+        font-size: 1rem;
+    }
+
+
+    .image-container h2.heading {
+        font-size: 1.5rem;
+    }
+
+    .leftBtn,
+    .rigthBtn {
+        display: none;
+    }
+
+    /*-----------Fotter---------------*/
+    .footer_sm {
+        width: 16px;
+        margin-top: 25%;
+    }
+
+    footer .footer_contact li .logo {
+        font-size: 15px;
+    }
+
+
+    /*-----------------FOR SLIDER--------------*/
+    .heading_slider {
+        font-size: 18px;
+        margin-top: 10%;
+    }
+
+    .gallery .image_holder {
+        width: 300px;
+        height: 200px;
+        grid-gap: 10px;
+    }
+
+    .span_image img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .prev_btn,
+    .next_btn {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .prev_btn {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .next_btn {
+        margin-right: 10px;
+    }
+
+    .gallery_wrap {
+        padding-left: 13px;
+        padding-right: 10px;
+    }
+
+    .gallery_wrap a {
+        text-decoration: none;
+    }
+}

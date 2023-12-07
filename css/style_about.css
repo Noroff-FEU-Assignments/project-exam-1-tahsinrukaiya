@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #2B2B2B;
+    height: 100px;
+}
+
+footer {
+    margin-top: 10%;
+}
+
+.row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wrapper-border {
+    border: none;
+    background: #EEE9DA;
+    margin-top: 2% !important;
+    padding-top: 30px;
+}
+
+.row .left_part img {
+    margin-top: 3%;
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+
+}
+
+.btnPhoto {
+    width: 150px;
+}
+
+
+
+
+
+
+
+/*---------------------------MEDIA QUERY FOR MOBILE----------------------------------------*/
+/*---------------------------SMALL SCREEN THAT IS LESS THAN 853PX----------------------------------------*/
+@media only screen and (max-width:853px) {
+    .row .left_part img {
+        margin-top: 30%;
+        width: 200px;
+        height: 180px;
+    }
+
+    .content h3 {
+        margin-left: 3%;
+    }
+
+    .btnPhoto {
+        width: 120px;
+        margin-top: 3%;
+    }
+
+    .wrapper-border {
+        padding-top: 0;
+    }
+
+    footer {
+        margin-top: 30%;
+    }
+
+
+}

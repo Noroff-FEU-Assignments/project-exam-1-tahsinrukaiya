@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page of adventurer's log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Sans&family=Merriweather&family=Montserrat&family=Open+Sans&family=Raleway:wght@300&display=swap"
+        rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Sans&family=Merriweather&family=Montserrat:wght@300;400&family=Open+Sans&family=Raleway:wght@300&family=Short+Stack&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Instrument+Sans&family=Merriweather&family=Montserrat&family=Open+Sans&family=Raleway:wght@300&family=Short+Stack&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style_home.css">
+    <link rel="stylesheet" href="css/style_contact.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="home.html" class="logo"><span class="firstLetter">A</span>dventurer's <span
+                class="firstLetter">L</span>og</a>
+
+        <ul class="nav-menu">
+            <li> <a href="home.html" class="nav-link">Home</a></li>
+            <li><a href="blog.html" class="nav-link">Blog</a></li>
+            <li><a href="gallery.html" class="nav-link">Photo Gallery</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+            <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+    </nav>
+    <div class="form-container">
+        <form id="contactForm">
+            <h1>Get In Touch</h1>
+            <label>FULL NAME (Required)</label>
+            <input type="text" id="name" placeholder="Your Full Name" onkeyup="validateName()">
+            <div class="form-error" id="fullname_error">Name must be more than 5 charecters</div>
+
+            <label>EMAIL (Required)</label>
+            <input type="text" id="email" placeholder="Your Email" onkeyup="validateEmail()">
+            <div class="form-error" id="email_error">Email is not valid</div>
+
+            <label>SUBJECT (Required)</label>
+            <input type="text" id="subject" placeholder="Subject" onkeyup="validateSubject()">
+            <div class="form-error" id="subject_error">Subject must be more than 15 charecters long</div>
+
+            <label>MESSAGE (Required)</label>
+            <textarea id="message" placeholder="Your Message" rows="6" onkeyup="validateMessage()"></textarea>
+            <div class="form-error" id="message_error">Message must be more than 25 charecters long</div>
+
+            <div class="button">
+                <input type="submit" value="Send Message" onclick="success_message()">
+                <span id="submitError"></span>
+            </div>
+
+            <div class="success" id="success">
+                <h6>Your message is sent</h6>
+            </div>
+            <div class="warn" id="warn">
+                <h6>You must fill up all those required fields</h6>
+            </div>
+        </form>
+    </div>
+    <script src="js/contact.js"></script>
+
+
+
+
+
+
+
+    <!----------------------------------------------FOOTER-------------------------------------------------------------------------->
+    <footer>
+
+        <ul class="footer_contact">
+            <li> <a href="#" class="logo"><span class="firstLetter">A</span>dventurer's <span
+                        class="firstLetter">L</span>og</a></li>
+            <li>Available On +0047 45698354</li>
+            <li>Send Me a Message</li>
+            <li>@all rights reserved</li>
+        </ul>
+
+        <div class="footer_sm">
+            <a href="#">
+                <img src="images/youtube.png" alt="youtube-icon">
+            </a>
+            <a>
+                <img src="images/twitter.png" alt="youtube-icon">
+            </a>
+            <a>
+                <img src="images/facebook.png" alt="youtube-icon">
+            </a>
+            <a>
+                <img src="images/instagram.png" alt="youtube-icon">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

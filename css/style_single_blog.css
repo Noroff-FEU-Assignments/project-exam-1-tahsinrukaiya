@@ -1,0 +1,141 @@
+.navbar {
+    background-color: #2B2B2B;
+    height: 100px;
+}
+
+footer {
+    margin-top: 20%;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid black;
+}
+
+.blog_heading {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 25%;
+    padding-bottom: 30px;
+}
+
+
+.blog_title {
+    font-family: 'Architects Daughter';
+    font-size: 1.7rem;
+    color: #2B2B2B;
+
+}
+
+.blog_date {
+    font-size: 15px;
+    border-bottom: 2px solid #E1AA74;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #776B5D;
+}
+
+.blog_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog_container .blog_box {
+    width: 800px;
+    background-color: white;
+    border: 1px solid #EBE3D5;
+    margin: 20px;
+}
+
+
+.blog_img img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog_text {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+}
+
+.blog_text ol {
+    line-height: 1.7;
+    padding-left: 20px;
+}
+
+.blog_text .content {
+    margin-left: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog_container .blog_text p {
+    line-height: 1.7;
+}
+
+@media only screen and (max-width:853px) {
+    .blog_title {
+        font-size: 15px;
+        padding-right: 20px;
+    }
+
+    .blog_date {
+        font-size: 13px;
+        padding-right: 20px;
+    }
+
+    .blog_container .blog_box {
+        border: none;
+    }
+
+    .blog_container {
+        width: 400px;
+    }
+
+    .blog_container .blog_box {
+
+        margin-left: 8px;
+        margin-right: 12px;
+        margin-bottom: 10px;
+    }
+
+    .blog_img img {
+        width: 340px;
+        height: 240px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .blog_text .content {
+        line-height: 1.8;
+        font-size: 15px;
+    }
+
+    .blog_text ol {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .blog_container .blog_text p {
+        line-height: 1.6;
+    }
+
+    @media screen and (min-width:1900px) {
+        .blog_box {
+            width: 1000px;
+        }
+    }
+}
