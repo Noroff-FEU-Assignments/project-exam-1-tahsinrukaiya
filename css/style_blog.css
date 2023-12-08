@@ -78,11 +78,13 @@ footer {
     font-size: 15px;
     font-weight: bold;
     color: #2B2B2B;
+    display: block;
 }
 
 .date {
     font-size: 13px;
     color: #776B5D;
+    display: block;
 }
 
 .blog_text .blog-title {
@@ -91,6 +93,10 @@ footer {
     font-weight: 400;
     color: #2B2B2B;
 
+}
+
+.main {
+    text-decoration: none;
 }
 
 .blog_text .blogBtn {

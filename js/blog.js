@@ -16,6 +16,7 @@ try {
             posts.innerHTML += `
             <div class="blog_container">
             <div class ="blog_box">
+            <a class="main" href="singleBlog.html?id=${post[i].id}&title=${post[i].title.rendered}">
             <div class="blog_img">
                 <img src="${post[i].jetpack_featured_media_url}"/>
             </div>
