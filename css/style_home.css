@@ -222,13 +222,21 @@ h3 {
     margin-top: 4%;
 }
 
+.title,
+.date {
+    color: #2B2B2B;
+    padding-left: 10px;
+
+}
+
 .gallery_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5%;
-    background-color: #EEE0C9;
+    background-color: #F4E0B9;
     padding: 50px;
+    box-shadow: 3px 3px #DFD7BF;
 }
 
 .gallery {

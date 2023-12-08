@@ -26,7 +26,9 @@ try {
                 <div class="image_holder">
                 <span class="span_image"><img src="${post[i].jetpack_featured_media_url}" alt="" /></span>
                 </div>
-                </a>
+               </a>
+               <h4 class ="title">${post[i].title.rendered}</h4>
+               <h6 class="date">${post[i].date}</h6>
                 </div> `;
         }
 

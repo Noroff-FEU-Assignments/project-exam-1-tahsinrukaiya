@@ -62,6 +62,7 @@ footer {
     height: 500px;
     object-fit: cover;
     object-position: center;
+    cursor: pointer;
 }
 
 .blog_text {
@@ -85,6 +86,48 @@ footer {
 .blog_container .blog_text p {
     line-height: 1.7;
 }
+
+/*-------------STYLE FOR MODAL----------------------*/
+.modal_container {
+    width: 800px;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: none;
+    overflow: hidden;
+}
+
+.modal_container::backdrop {
+    background: #2B2B2B;
+    opacity: .8;
+}
+
+.modal_container .modal_image {
+    display: block;
+    width: 800px;
+    height: 450px;
+
+}
+
+.close_button {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    background-color: #3C2A21;
+    width: 100px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width:853px) {
     .blog_title {
