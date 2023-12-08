@@ -9,7 +9,6 @@ footer {
 
 .content h3 {
     font-size: 1.2rem;
-    margin-left: 30px !important;
 }
 
 .row {
@@ -53,7 +52,7 @@ footer {
     }
 
     .content h3 {
-        margin-left: 3%;
+        margin-left: 10%;
     }
 
     .btnPhoto {
