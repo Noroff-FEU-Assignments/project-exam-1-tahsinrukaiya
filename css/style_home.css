@@ -139,7 +139,6 @@ nav ul {
     transition: 0.5s;
 }
 
-
 /* -------------------------------------------STYLES FOR SECTION 2-------------------------------------------*/
 
 
@@ -447,7 +446,6 @@ footer ul li a {
         left: 0;
     }
 
-
     .banner {
         height: 85vh;
         background-image: url('../Images/hero_image_mobile.jpeg');
@@ -460,7 +458,7 @@ footer ul li a {
 
 
     .banner .banner_text h1 {
-        font-size: 34px;
+        font-size: 36px;
         text-align: center;
         text-shadow: none;
         padding-right: 30px;
@@ -473,10 +471,9 @@ footer ul li a {
     }
 
     .banner .banner_text .subTxt h3 {
-        font-size: 18px;
+        font-size: 16px;
         color: #2B2B2B;
         text-align: center;
-        font-family: 'Architects Daughter';
         margin-top: 3%;
         margin-right: 9%;
         padding: 15px;
@@ -526,8 +523,8 @@ footer ul li a {
         padding-right: 30px;
     }
 
-    h3 {
-        font-size: 1.5rem;
+    .content h2 {
+        font-size: 1.2rem;
         padding-left: 18px;
     }
 
@@ -550,7 +547,7 @@ footer ul li a {
     }
 
     .blog-heading h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-top: 12%;
     }
 
@@ -565,7 +562,7 @@ footer ul li a {
 
 
     .image-container h2.heading {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .leftBtn,
@@ -584,9 +581,9 @@ footer ul li a {
     }
 
 
-    /*-----------------FOR SLIDER--------------*/
+    /*-----------SECTION 3------FOR SLIDER--------------*/
     .heading_slider {
-        font-size: 18px;
+        font-size: 1.2rem;
         margin-top: 10%;
     }
 
