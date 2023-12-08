@@ -87,7 +87,6 @@ nav ul {
     background-image: url('../Images/hero_image1.jpeg');
     background-size: cover;
     background-position: center 100%;
-    box-shadow: 3px 3px lightgray;
 }
 
 .banner .banner_text {
@@ -102,7 +101,7 @@ nav ul {
 }
 
 .banner .banner_text .subTxt h3 {
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #2B2B2B;
     text-shadow: 1px 1px #FDF7E4;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +110,7 @@ nav ul {
 .banner .banner_text h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px black;
 }
 
 .banner_text .button_container {
@@ -344,7 +343,8 @@ footer ul li a {
     }
 
     .banner .banner_text h1 {
-        font-size: 60px;
+        font-size: 70px;
+        text-shadow: 2px 2px 2px black;
     }
 
     .navbar .logo {
@@ -357,8 +357,8 @@ footer ul li a {
         font-size: 45px;
     }
 
-    .banner .banner_text h3 {
-        font-size: 30px;
+    h3 {
+        font-size: 5rem;
     }
 
     .banner_text .button_container .btnAbout {
@@ -385,7 +385,7 @@ footer ul li a {
 
     .row .left_part img {
         width: 450px;
-        height: 620px;
+        height: 500px;
     }
 
     .row {
@@ -400,6 +400,7 @@ footer ul li a {
     .container {
         width: 100%;
     }
+
 }
 
 /*---------------------------SMALL SCREEN THAT IS LESS THAN 853PX----------------------------------------*/
