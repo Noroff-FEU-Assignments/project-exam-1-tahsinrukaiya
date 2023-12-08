@@ -5,7 +5,6 @@
 
 footer {
     margin-top: 50%;
-
 }
 
 .blog {
@@ -30,9 +29,9 @@ footer {
 }
 
 .blog_heading h3 {
-    font-family: 'Architects Daughter';
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     color: #2B2B2B;
+    margin-top: 3%;
 }
 
 .blog_container {

@@ -60,12 +60,11 @@ nav ul {
 }
 
 .navbar ul li a {
-    font-family: 'Architects Daughter';
     line-height: 60px;
     color: white;
     padding: 12px 18px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     position: relative;
     border-radius: 50px;
@@ -94,7 +93,7 @@ nav ul {
 .banner .banner_text {
     text-align: start;
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 12%;
     transform: translate(-20%, -25%);
     color: white;
@@ -103,9 +102,10 @@ nav ul {
 }
 
 .banner .banner_text .subTxt h3 {
-    font-size: 28px;
+    font-size: 20px;
     color: #2B2B2B;
     text-shadow: 1px 1px #FDF7E4;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .banner .banner_text h1 {
@@ -183,9 +183,9 @@ nav ul {
     padding-left: 0px;
 }
 
-h3 {
-    font-family: 'Architects Daughter';
-    font-size: 2.1rem;
+h2 {
+    font-size: 2rem;
+    padding-bottom: 10px;
 }
 
 .row .rigth_part .content p {
@@ -216,10 +216,9 @@ h3 {
 
 /* --------------FOR SLIDER---------STYLES FOR SECTION 3----------------*/
 .heading_slider {
-    font-family: 'Architects Daughter';
-    font-size: 2.1rem;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 .title,

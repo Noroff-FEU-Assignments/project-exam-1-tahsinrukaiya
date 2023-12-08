@@ -50,6 +50,26 @@ async function fetchBlogDetail() {
         </div>    
   `;
 
+    const modal_container = document.querySelector("#modal");
+    const close_button = document.querySelector(".close_button");
+    const blog_image = document.querySelector(".blog_img");
+
+    function getModal() {
+
+        blog_image.addEventListener('click', () => {
+            modal_container.showModal();
+
+        })
+
+        close_button.addEventListener('click', () => {
+            modal.close();
+        })
+    }
+
+    blog_image.onclick = getModal();
+
 }
 
 fetchBlogDetail();
+
+

@@ -27,8 +27,7 @@ footer {
 
 
 .blog_title {
-    font-family: 'Architects Daughter';
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #2B2B2B;
 
 }
@@ -90,8 +89,8 @@ footer {
 /*-------------STYLE FOR MODAL----------------------*/
 .modal_container {
     width: 800px;
-    height: 450px;
-    margin-left: 20%;
+    height: 500px;
+    margin-left: 17%;
     margin-top: 5%;
     border: none;
     overflow: hidden;
@@ -99,14 +98,13 @@ footer {
 
 .modal_container::backdrop {
     background: #2B2B2B;
-    opacity: .8;
+    opacity: 0.9;
 }
 
 .modal_container .modal_image {
     display: block;
     width: 800px;
-    height: 450px;
-
+    height: 500px;
 }
 
 .close_button {
@@ -149,7 +147,6 @@ footer {
     }
 
     .blog_container .blog_box {
-
         margin-left: 8px;
         margin-right: 12px;
         margin-bottom: 10px;
@@ -176,9 +173,29 @@ footer {
         line-height: 1.6;
     }
 
+    .modal_container {
+        width: 300px;
+        height: 200px;
+        margin-left: 8%;
+        margin-top: 40%;
+    }
+
+    .modal_container .modal_image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .close_button {
+        font-size: 13px;
+        width: 50px;
+    }
+
+
+
     @media screen and (min-width:1900px) {
         .blog_box {
             width: 1000px;
         }
+
     }
 }

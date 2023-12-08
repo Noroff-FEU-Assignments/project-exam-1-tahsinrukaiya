@@ -8,18 +8,11 @@ footer {
 
 }
 
-/*#E1AA74;   button color green: color: #508D69;
-red : color: #F45050;*/
-
 .form-container {
     background: #F4EAE0;
     height: 130vh;
     padding-top: 10px;
     padding-bottom: 10%;
-}
-
-form h1 {
-    font-family: 'Architects Daughter';
 }
 
 form {
