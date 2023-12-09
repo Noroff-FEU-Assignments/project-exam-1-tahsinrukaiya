@@ -11,12 +11,12 @@ scrollContainer.addEventListener("wheel", (evt) => {
 
 next_btn.addEventListener("click", () => {
     scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft += 1400;
+    scrollContainer.scrollLeft += 330;
 });
 
 prev_btn.addEventListener("click", () => {
     scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft -= 1400;
+    scrollContainer.scrollLeft -= 330;
 });
 
 
