@@ -49,6 +49,11 @@ footer {
     margin: 20px;
 }
 
+.blog_box:hover {
+    transform: scale(1.06);
+    transition: .7s;
+}
+
 .blog_img {
     width: 330px;
     height: 230px;

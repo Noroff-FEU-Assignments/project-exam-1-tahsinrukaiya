@@ -120,13 +120,7 @@ footer {
     float: right;
 }
 
-
-
-
-
-
-
-
+/*---------------MEDIA QUERY --------------------------*/
 @media only screen and (max-width:853px) {
     .blog_title {
         font-size: 15px;
@@ -175,14 +169,14 @@ footer {
 
     .modal_container {
         width: 300px;
-        height: 200px;
-        margin-left: 8%;
-        margin-top: 40%;
+        height: 210px;
+        margin-left: 9%;
+        margin-top: 50%;
     }
 
     .modal_container .modal_image {
         width: 300px;
-        height: 200px;
+        height: 210px;
     }
 
     .close_button {
@@ -190,12 +184,22 @@ footer {
         width: 50px;
     }
 
+}
 
+@media screen and (min-width:1900px) {
 
-    @media screen and (min-width:1900px) {
-        .blog_box {
-            width: 1000px;
-        }
-
+    .modal_container {
+        width: 900px;
+        height: 520px;
+        margin-left: 25%;
+        margin-top: 10%;
+        border: none;
+        overflow: hidden;
     }
+
+    .modal_container .modal_image {
+        width: 900px;
+        height: 520px;
+    }
+
 }

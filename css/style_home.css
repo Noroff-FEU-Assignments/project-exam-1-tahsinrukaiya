@@ -233,7 +233,7 @@ h2 {
     margin-top: 5%;
     background-color: #F4E0B9;
     padding: 50px;
-    box-shadow: 3px 3px #DFD7BF;
+    box-shadow: 0 0 3px 0;
 }
 
 .gallery {
