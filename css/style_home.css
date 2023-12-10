@@ -102,7 +102,6 @@ nav ul {
 .banner .banner_text .subTxt h3 {
     font-size: 1.5rem;
     color: #2B2B2B;
-    text-shadow: 1px 1px #FDF7E4;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -460,19 +459,20 @@ footer ul li a {
     }
 
     .banner {
-        height: 85vh;
+        height: 83vh;
         background-image: url('../Images/hero_image_mobile.jpeg');
     }
 
     .banner .banner_text {
-        margin-left: 12%;
-        margin-top: 10%;
+        margin-left: 15.5%;
+        margin-top: 6%;
         top: 33%;
         background-color: rgb(229, 220, 195, 0.4);
+        height: 300px;
     }
 
     .banner .banner_text h1 {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         text-shadow: none;
         padding-right: 30px;
@@ -488,6 +488,7 @@ footer ul li a {
         padding: 15px;
         text-shadow: none;
         background-color: rgb(229, 220, 195, 0.5);
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .banner .button_container {
@@ -500,7 +501,7 @@ footer ul li a {
         font-size: 14px;
         width: 145px;
         padding: 10px 20px;
-        margin-left: 12%;
+        margin-left: 4%;
         margin-top: 6%;
     }
 
@@ -633,6 +634,6 @@ footer ul li a {
     }
 
     .link_to_blog_page {
-        font-size: 13px;
+        font-size: 11px;
     }
 }
